@@ -59,7 +59,7 @@ def setup_ui():
     global root, editor, preview, note_select, current_note, ai_status
     
     root = ThemedTk(theme="arc")
-    root.title("AI Markdown Editor")
+    root.title("Markdown Editor")
     root.geometry("1200x700")
     
     root.resizable(True, True)
@@ -288,7 +288,7 @@ def start_ai_worker():
 
 def main():
     global model
-    genai.configure(api_key="")
+    genai.configure(api_key="------- YOUR GEMINI API KEY HERE -------")
     model = genai.GenerativeModel('gemini-pro')
     
     load_notes()
