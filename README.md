@@ -42,8 +42,10 @@
 </div>
 
 
+
 ## Overview 🌟
 - A user-friendly Markdown editor that integrates the Gemini API for enhanced writing and previewing.
+
 
 ## Features ✨
 - Real-time Markdown preview
@@ -54,16 +56,39 @@
   - ➡️ Convert text to proper markdown
 
 
+
+## Installation 
+
+- Add the `Gemini API` Key as ----
+
+  ```py
+     ........
+    
+    def main():
+      global model
+      genai.configure(api_key="------- YOUR GEMINI API KEY HERE -------")
+      model = genai.GenerativeModel('gemini-pro')
+    
+    ........      
+  ```
+
+
+
 ## 🖼️ Screenshot
 ![image](https://github.com/user-attachments/assets/aef3b0a3-0a45-46b9-9bc8-e8507a412b75)
+
 
 
 ## Credit 👍 
 Images used in project belong to the Websites --->
 - SVG Repo <a href="https://www.svgrepo.com/"> Website </a>
 
+
+
 ## Contributions 🧑‍💻
 Contributions are welcome! Please feel free to submit issues and pull requests.
+
+
 
 ## License 🪪
 This project is licensed under the [MIT License](LICENSE).
